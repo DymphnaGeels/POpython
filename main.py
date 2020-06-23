@@ -7,9 +7,12 @@ lijst = ["-maximaal vijf keer raden","-een letter per beurt"]
 for item in lijst:
  print(item)
  
-woorden = [“informatica”, “informatiekunde”, “spelletje”, “aardigheidje”, “scholier”, “fotografie”, “waardebepaling”, “specialiteit”, “verzekering”, “universiteit”, “heesterperk”]
+counter = 0
+compwoordenlist = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]                        
+hetwoord = random.choice(compwoordenlist)
+lengtewoord = len(hetwoord)
+temp = "." * lengtewoord
 
-# woord_1 = random.choice(woorden)
-
+print("het woord heeft " + str(lengtewoord) + " letters")
 
  
