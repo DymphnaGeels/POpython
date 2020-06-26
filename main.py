@@ -1,3 +1,5 @@
+import random
+
 a = "Welkom bij galgje"
 print(a)
 b = 'De regels:'
@@ -15,4 +17,8 @@ temp = "." * lengtewoord
 
 print("het woord heeft " + str(lengtewoord) + " letters")
 
- 
+
+
+
+
+
