@@ -1,4 +1,5 @@
-import random
+aimport random
+import re
 
 a = "Welkom bij galgje"
 print(a)
@@ -16,9 +17,17 @@ lengtewoord = len(hetwoord)
 temp = "." * lengtewoord
 
 print("het woord heeft " + str(lengtewoord) + " letters")
+i = input()
+print(i)
 
 
-
+while True:
+  userguess = (input(": "))
+  match = re.search(userguess, hetwoord)
+  if userguess == hetwoord: #als je het woord heb geraden
+    print('je heb het woord ' + '"' + hetwoord + '"' + " geraden")
+    break
+  
 
 
 
